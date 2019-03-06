@@ -4,7 +4,7 @@
 
 ### Summary
 #
-This tool is a console based application for testing **SignalR Hub**, and supports hub created using **Asp.Net SignalR** and **Asp.Net SignalR Core**. You can create your own test setup as DLL, drop it in to a secific directory of the tool, and you are done!! Tool will do the rest for you. 
+This tool is a console based application for testing **SignalR Hub**, and supports hub created using **Asp.Net SignalR** and **Asp.Net Core SignalR**. You can create your own test setup as DLL, drop it in to a secific directory of the tool, and you are done!! Tool will do the rest for you. 
 
 Currently it supports following features:
 
