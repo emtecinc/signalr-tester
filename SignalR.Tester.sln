@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Tester.Core", "SignalR.Tester.Core\SignalR.Tester.Core.csproj", "{34491CE1-94DB-4394-B9C0-0177D8E3A1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Tester.App", "SignalR.Tester.App\SignalR.Tester.App.csproj", "{8C29C059-5C3D-4E2F-B7B9-D90E55FC0834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Tester.Utils", "SignalR.Tester.Utils\SignalR.Tester.Utils.csproj", "{5C4F92BE-23B8-428D-BDC8-B808BCBD30E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo.Agents", "Demo.Agents", "{00A1814E-5340-4587-AF88-541A0AE6C606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo.Hubs", "Demo.Hubs", "{36D5E0A5-77DB-4BC2-BCB1-B4DC96BCD636}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SignalR.Tester.App.Setup", "SignalR.Tester.App.Setup\SignalR.Tester.App.Setup.vdproj", "{D9488493-E436-4DF7-8784-40707F943D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultAgent", "Demo.Agents\DefaultAgent\DefaultAgent.csproj", "{B3110EE5-F01D-4D15-A8BF-1B96164619AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SignalR.Agent", "Demo.Agents\Demo.SignalR.Agent\Demo.SignalR.Agent.csproj", "{E34C5C13-2281-4020-9743-24E05DE22075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SignalR.Core.Agent", "Demo.Agents\Demo.SignalR.Core.Agent\Demo.SignalR.Core.Agent.csproj", "{F4465F77-2824-44E3-B5BC-6167E48CC8BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.SignalR.Core.TestHub", "Demo.Hubs\Demo.SignalR.Core.TestHub\Demo.SignalR.Core.TestHub.csproj", "{0E8D4187-2092-49A3-A014-F2ABC442244F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SignalR.TestHub", "Demo.Hubs\Demo.SignalR.TestHub\Demo.SignalR.TestHub.csproj", "{B94E0027-2664-4DAC-BA32-7AA12BFCEE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34491CE1-94DB-4394-B9C0-0177D8E3A1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34491CE1-94DB-4394-B9C0-0177D8E3A1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34491CE1-94DB-4394-B9C0-0177D8E3A1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34491CE1-94DB-4394-B9C0-0177D8E3A1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C29C059-5C3D-4E2F-B7B9-D90E55FC0834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C29C059-5C3D-4E2F-B7B9-D90E55FC0834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C29C059-5C3D-4E2F-B7B9-D90E55FC0834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C29C059-5C3D-4E2F-B7B9-D90E55FC0834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4F92BE-23B8-428D-BDC8-B808BCBD30E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4F92BE-23B8-428D-BDC8-B808BCBD30E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4F92BE-23B8-428D-BDC8-B808BCBD30E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4F92BE-23B8-428D-BDC8-B808BCBD30E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9488493-E436-4DF7-8784-40707F943D34}.Debug|Any CPU.ActiveCfg = Debug
+		{D9488493-E436-4DF7-8784-40707F943D34}.Release|Any CPU.ActiveCfg = Release
+		{B3110EE5-F01D-4D15-A8BF-1B96164619AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3110EE5-F01D-4D15-A8BF-1B96164619AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3110EE5-F01D-4D15-A8BF-1B96164619AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3110EE5-F01D-4D15-A8BF-1B96164619AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34C5C13-2281-4020-9743-24E05DE22075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34C5C13-2281-4020-9743-24E05DE22075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34C5C13-2281-4020-9743-24E05DE22075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34C5C13-2281-4020-9743-24E05DE22075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4465F77-2824-44E3-B5BC-6167E48CC8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4465F77-2824-44E3-B5BC-6167E48CC8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4465F77-2824-44E3-B5BC-6167E48CC8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4465F77-2824-44E3-B5BC-6167E48CC8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8D4187-2092-49A3-A014-F2ABC442244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8D4187-2092-49A3-A014-F2ABC442244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8D4187-2092-49A3-A014-F2ABC442244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8D4187-2092-49A3-A014-F2ABC442244F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94E0027-2664-4DAC-BA32-7AA12BFCEE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94E0027-2664-4DAC-BA32-7AA12BFCEE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94E0027-2664-4DAC-BA32-7AA12BFCEE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94E0027-2664-4DAC-BA32-7AA12BFCEE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3110EE5-F01D-4D15-A8BF-1B96164619AB} = {00A1814E-5340-4587-AF88-541A0AE6C606}
+		{E34C5C13-2281-4020-9743-24E05DE22075} = {00A1814E-5340-4587-AF88-541A0AE6C606}
+		{F4465F77-2824-44E3-B5BC-6167E48CC8BD} = {00A1814E-5340-4587-AF88-541A0AE6C606}
+		{0E8D4187-2092-49A3-A014-F2ABC442244F} = {36D5E0A5-77DB-4BC2-BCB1-B4DC96BCD636}
+		{B94E0027-2664-4DAC-BA32-7AA12BFCEE10} = {36D5E0A5-77DB-4BC2-BCB1-B4DC96BCD636}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {836C1C2F-6B9F-4BD3-BA82-3349B7D2EE4A}
+	EndGlobalSection
+EndGlobal
