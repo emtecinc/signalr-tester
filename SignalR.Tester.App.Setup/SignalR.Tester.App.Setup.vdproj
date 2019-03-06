@@ -6404,7 +6404,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -7654,7 +7654,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SignalR.Tester"
         "ProductCode" = "8:{538FBDF8-9744-4B46-B439-17C54F8FA3B7}"
-        "PackageCode" = "8:{A9182E08-D440-4702-9D0C-8630135803CD}"
+        "PackageCode" = "8:{CE29ABF3-0384-4831-BA3C-BFA9969E3B08}"
         "UpgradeCode" = "8:{41A81E34-E0BD-4B1F-B1EB-123CB4DF747E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
