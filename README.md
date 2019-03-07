@@ -14,7 +14,9 @@ Currently it supports following features:
 4. Ability to hook up other methods which can be called at a later stage, once the connection is established. It can be used to stress out the connection.
 5. Ability to write any dotnet code for complex test setup scenarios.
 
-**PreRequisite** - **.Net Framework 4.6.1**
+**PreRequisite** - 
+1. **.Net Framework 4.6.1**
+2. **[.Net Core 2.2](https://dotnet.microsoft.com/download)**
 
 ### What options do you have?
 #
