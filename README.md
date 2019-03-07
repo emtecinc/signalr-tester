@@ -149,7 +149,7 @@ Once you create an agent and you are ready with the `dll`, copy the same to `Age
 
 **Step 4**: Run the tool
 
-Run the `SignalR Tester` tool from start menu or Desktop. The tool will guide you through a wizard, just following along and you will be able to test you Hub.
+Run the `SignalR Tester` tool from start menu or Desktop. The tool will guide you through a wizard, just following along and you will be able to test your Hub.
 
 **NOTE** - **A `Default Agent` comes pre-installed out of box, which can only ramp up connections to Hub.**
 
