@@ -1,6 +1,6 @@
 # signalr-tester
 [![License](https://img.shields.io/github/license/emtecinc/signalr-tester.svg)](https://github.com/emtecinc/signalr-tester/blob/master/LICENSE)
-### A tool for testing Asp.Net SignalR and Asp.Net Core SignalR api's
+### A command line tool to stress/load test your SignalR Hubs developed in **Asp.Net SignalR** and **Asp.Net Core** and see how your  application responds under a high level of connection density. This tools allows you to write your test scenarios using C# to handle complex scenarios. 
 
 ### Summary
 #
