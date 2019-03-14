@@ -134,7 +134,7 @@ public class ChatHub : Hub
 
 Please follow along the article below to know how to use the tool.
 
-### Usage
+### How to use the Tool
 #
 
 **Step 1**: Download the Tool and install
